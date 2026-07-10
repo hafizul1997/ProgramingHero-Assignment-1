@@ -111,3 +111,43 @@ p{
     font-weight: lighter;
 }
 /* Hero Section Style End*/
+
+/*Speaker section start*/
+.container .speakers-h{
+    text-align: center;
+    padding:50px 0 20px 0;
+}
+.speakers-wrapper{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows:repeat(2,1fr);
+    gap:30px;
+    padding-bottom:100px;
+}
+.card{
+    border:1px solid rgb(231, 229, 229);
+    border-radius:10px;
+}
+.card-body img{
+max-width: 100%;
+}
+.card-body .card-des{
+    padding:20px;
+}
+.card-des .p-name{
+    font-size: 20x;
+    font-weight: bold;
+    
+}
+.card-des .p-title{
+font-size: 12px;
+font-weight:800;
+color:#2563EB;
+}
+.card-des .p-des{
+font-weight:500;
+font-size:14px;
+color:#575757;
+letter-spacing: 0.1cap;
+}
+/*Speaker section End*/
