@@ -24,11 +24,14 @@ h1,h2,h3,h4,h5,h6{
     margin: 30px 0;
 }
 p{
+    
     line-height: 150%;
-    margin: 1.5em;
+    margin:5px 0;
+}
+.navbar-btn{
+     padding: 10px 20px;
 }
 .btn1{
-    padding: 10px 20px;
     background-color: #1D4ED8;
     color:white;
     font-weight: bold;
@@ -37,10 +40,6 @@ p{
     cursor: pointer;
 }
 .btn1:hover{
-   border: 3px solid #1D4ED8;
-   border-radius:10px;
-   background: none;
-   color:#575757;
    box-shadow:2px 1px 10px #1D4ED8;
 }
 /*Typograpy End*/
@@ -75,3 +74,40 @@ p{
 }
 
 /* Header Section Style End*/
+
+/* Hero Section Style Start*/
+.hero-section{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+ url(./assets/banner.jpg) no-repeat;
+    background-size:cover;
+    background-position: center;
+    height:786px;
+    
+}
+.hero-wrapper{
+   padding:136px 0;
+   color:white;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   gap:200px;
+}
+.hero-wrapper .center-text h1{
+    font-size: 80px;
+}
+.center-text .hero-p{
+    width: 600px;
+    height: 108px;
+    margin: auto;
+    font-weight:200;
+}
+.center-text p{
+   font-size:16px;
+   font-family:"Inter", sans-serif;
+}
+.hero-wrapper .hero-btn{
+    padding:20px 35px;
+    font-size:20px;
+    font-weight: lighter;
+}
+/* Hero Section Style End*/
