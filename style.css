@@ -37,9 +37,12 @@ p{
     font-size: 16px;
     border-radius: 10px;
     cursor: pointer;
+    border:none;
 }
 .btn1:hover{
-   box-shadow:2px 1px 10px #1D4ED8;
+
+  box-shadow: 0 5px 25px #1D4ED8;
+     transform: translateY(-1px);
 }
 /*Typograpy End*/
 
@@ -105,9 +108,10 @@ p{
    font-family:"Inter", sans-serif;
 }
 .hero-wrapper .hero-btn{
-    padding:20px 35px;
+    padding:20px 78px;
     font-size:20px;
     font-weight: lighter;
+    border:none;
 }
 /* Hero Section Style End*/
 
@@ -126,9 +130,18 @@ p{
 .card{
     border:1px solid rgb(231, 229, 229);
     border-radius:10px;
+    overflow: hidden;
+
+}
+.card:hover{
+     border:1px solid rgba(165, 163, 163, 0.911);
+     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+     transform: translateY(-10px);
 }
 .card-body img{
-max-width: 100%;
+width:645px;
+border-radius:10px 10px 0 0;
+object-fit:cover;
 }
 .card-body .card-des{
     padding:20px;
@@ -168,7 +181,7 @@ letter-spacing: 0.1cap;
 }
 .pricing-wrapper{
    display:grid;
-   grid-template-columns:repeat(3,1fr);
+  grid-template-columns:repeat(3,1fr);
    gap:15px;
    max-width: 1160px;
    max-height: 464px;
@@ -221,13 +234,16 @@ color:#2563EB;
 /*Footer  section Start*/
 .footer{
    background-color: #0D1B2A;
+   height:auto;
 }
 .footer-top{
 display: flex;
-  justify-content: space-between;
-  align-items: center;
-    flex-wrap: wrap;
-    height:80px;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+ height:80px;
+flex-wrap: wrap;
+flex-direction: row;
     
 }
 .social-icon{
@@ -254,7 +270,7 @@ hr{
      justify-content: space-between;
      align-items: center;
      margin-bottom:30px;
-     padding: 20px 0;
+     flex-wrap: wrap;
 }
 .footer-bottom-right ul{
 list-style:none;
