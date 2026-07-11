@@ -11,6 +11,7 @@ body{
 .container{
     max-width:1320px;
     margin: 0 auto;
+    height: auto;
 }
 img{
     max-width:100%;
@@ -149,6 +150,10 @@ color:#575757;
 letter-spacing: 0.1cap;
 }
 /*Speaker section End*/
+
+
+/*Pricing-card section Start*/
+
 .container-m{
     padding-bottom:80px;
 }
@@ -170,6 +175,7 @@ letter-spacing: 0.1cap;
    align-items: center;
    justify-content: space-between;
    margin:auto;
+   flex-wrap: wrap;
 }
 .pricing-wrapper .card{
     padding:30px;
@@ -211,3 +217,55 @@ color:#2563EB;
     border:none;
     color:white;
 }
+/*Pricing-card section Start*/
+/*Footer  section Start*/
+.footer{
+   background-color: #0D1B2A;
+}
+.footer-top{
+display: flex;
+  justify-content: space-between;
+  align-items: center;
+    flex-wrap: wrap;
+    height:80px;
+    
+}
+.social-icon{
+    display: inline-flex;
+    gap:15px;
+    font-size: 20px;
+}
+.social-icon a{
+    color:#ffffffce;
+}
+.social-icon a:hover{
+color:#1D4ED8;
+}
+hr{
+    height:1px;
+    background-color:#ffffff56;
+    border: none;
+}
+
+.footer-bottom{
+    text-align: center;
+     color:#ffffffce;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom:30px;
+     padding: 20px 0;
+}
+.footer-bottom-right ul{
+list-style:none;
+display: inline-flex;
+gap:10px;
+}
+.footer-bottom-right ul li a{
+    color:white;
+    font-size: 14px;
+}
+.footer-bottom-right ul li a:hover{
+    color: #1D4ED8;
+}
+/*Footer Section End*/
