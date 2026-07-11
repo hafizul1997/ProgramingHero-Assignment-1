@@ -236,13 +236,13 @@ color:#2563EB;
 /*FAQ Section Start*/
 
 .faq{
-    padding:80px 0;
+    padding:90px 0;
     background:#fff;
 }
 
 .container{
     width:90%;
-    max-width:1200px;
+    max-width:1100px;
     margin:auto;
 }
 
@@ -253,44 +253,66 @@ color:#2563EB;
 
 .section-title h2{
     font-size:42px;
-    font-weight:700;
     color:#111827;
-    margin-bottom:10px;
+    margin-bottom:12px;
 }
 
 .section-title p{
-    font-size:16px;
     color:#6B7280;
+    font-size:16px;
 }
 
-.faq-container{
+.faq-wrapper{
     display:flex;
     flex-direction:column;
-    gap:20px;
+    gap:18px;
 }
 
 .faq-item{
-    padding:25px 30px;
     border:1px solid #E5E7EB;
-    border-radius:14px;
+    border-radius:12px;
+    background:#fff;
+    overflow:hidden;
     transition:.3s;
 }
 
 .faq-item:hover{
     border-color:#2563EB;
-    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
 }
 
-.faq-item h3{
-    font-size:20px;
+.faq-item summary{
+    list-style:none;
+    cursor:pointer;
+    padding:22px 28px;
+    font-size:18px;
+    font-weight:600;
     color:#111827;
-    margin-bottom:12px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.faq-item summary::-webkit-details-marker{
+    display:none;
+}
+
+.faq-item summary::after{
+    content:"+";
+    font-size:28px;
+    color:#2563EB;
+    transition:.3s;
+}
+
+.faq-item[open] summary::after{
+    content:"−";
 }
 
 .faq-item p{
-    font-size:16px;
+    padding:0 28px 22px;
     color:#6B7280;
     line-height:1.7;
+    font-size:15px;
 }
 /*FAQ Section End*/
 
