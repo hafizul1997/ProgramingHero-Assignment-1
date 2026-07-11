@@ -231,6 +231,69 @@ color:#2563EB;
     color:white;
 }
 /*Pricing-card section Start*/
+
+
+/*FAQ Section Start*/
+
+.faq{
+    padding:80px 0;
+    background:#fff;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    font-size:42px;
+    font-weight:700;
+    color:#111827;
+    margin-bottom:10px;
+}
+
+.section-title p{
+    font-size:16px;
+    color:#6B7280;
+}
+
+.faq-container{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.faq-item{
+    padding:25px 30px;
+    border:1px solid #E5E7EB;
+    border-radius:14px;
+    transition:.3s;
+}
+
+.faq-item:hover{
+    border-color:#2563EB;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.faq-item h3{
+    font-size:20px;
+    color:#111827;
+    margin-bottom:12px;
+}
+
+.faq-item p{
+    font-size:16px;
+    color:#6B7280;
+    line-height:1.7;
+}
+/*FAQ Section End*/
+
 /*Footer  section Start*/
 .footer{
    background-color: #0D1B2A;
@@ -269,7 +332,6 @@ hr{
      display: flex;
      justify-content: space-between;
      align-items: center;
-     margin-bottom:30px;
      flex-wrap: wrap;
 }
 .footer-bottom-right ul{
@@ -285,3 +347,4 @@ gap:10px;
     color: #1D4ED8;
 }
 /*Footer Section End*/
+
