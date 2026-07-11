@@ -15,7 +15,7 @@ body{
 }
 img{
     max-width:100%;
-    height: auto;
+    height:auto;
 }
 a{
     text-decoration:none;
@@ -42,7 +42,7 @@ p{
 .btn1:hover{
 
   box-shadow: 0 5px 25px #1D4ED8;
-     transform: translateY(-1px);
+  transform: translateY(-1px);
 }
 /*Typograpy End*/
 
@@ -130,7 +130,7 @@ p{
 .card{
     border:1px solid rgb(231, 229, 229);
     border-radius:10px;
-    overflow: hidden;
+  overflow: hidden;
 
 }
 .card:hover{
@@ -169,6 +169,7 @@ letter-spacing: 0.1cap;
 
 .container-m{
     padding-bottom:80px;
+    margin: 0 50px;
 }
 .container .pricing-h h1{
    text-align: center;
@@ -176,22 +177,23 @@ letter-spacing: 0.1cap;
 }
 .container .pricing-h p{
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom:60px;
     color:#575757;
 }
 .pricing-wrapper{
-   display:grid;
-  grid-template-columns:repeat(3,1fr);
+   display:flex;
    gap:15px;
-   max-width: 1160px;
-   max-height: 464px;
+   justify-content:center;
+   margin:0 auto;
    align-items: center;
-   justify-content: space-between;
-   margin:auto;
-   flex-wrap: wrap;
+
 }
 .pricing-wrapper .card{
-    padding:30px;
+padding:15px;
+}
+.card .card-body{
+max-width:1200px;
+max-height: 492px;
 }
 .pricing-wrapper .card2{
     background-color:#0D1B2A;
@@ -206,7 +208,8 @@ letter-spacing: 0.1cap;
 }
 
 .card-des li{
-    line-height: 2rem;
+    line-height: 1.5rem;
+    font-size: 14px;
 }
 .card-des li::marker{
     color:#60A5FA;
@@ -230,7 +233,7 @@ color:#2563EB;
     border:none;
     color:white;
 }
-/*Pricing-card section Start*/
+/*Pricing-card section End*/
 
 
 /*FAQ Section Start*/
@@ -328,7 +331,6 @@ align-items: center;
 flex-wrap: wrap;
  height:80px;
 flex-wrap: wrap;
-flex-direction: row;
     
 }
 .social-icon{
